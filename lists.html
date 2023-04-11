@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .serie {
+            color: green;
+        }
+        .filme {
+            color: blue;
+        }
+        .jogo {
+            color: orangered;
+        }
+        p > .jogo{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,26 +38,27 @@
         <p>Três ultimos jogos jogados:</p>
 
         <ol>
-            <li>HayDay</li>
-            <li>Golf Battle</li>
-            <li>Candy Crush</li>
+            <li class="jogo">HayDay</li>
+            <li class="jogo">Golf Battle</li>
+            <li class="jogo">Candy Crush</li>
         </ol>
+        <p>E o <span class="jogo">Valorant</span> que eu jogo aos finais de semana.</p>
 
         <p>Filmes e Séries  assistidos:</p>
 
         <ul>
             <li>
                 <div>Filmes</div>
-                <ul style="color: blue;">
-                    <li>Totoro</li>
-                    <li>Frozen</li>
+                <ul>
+                    <li class="filme">Totoro</li>
+                    <li class="filme">Frozen</li>
                 </ul>
             </li>
             <li>
                 <div>Séries</div>
-                <ul style="color: green;">
-                    <li>House of Cards</li>
-                    <li>Manifest</li>
+                <ul>
+                    <li class="serie">House of Cards</li>
+                    <li class="serie">Manifest</li>
                 </ul>
             </li>
         </ul>

@@ -5,6 +5,10 @@ footer {
     background-color: black;
 }
 
+main {
+    min-height: 264px;
+}
+
 nav li {
     display: inline;
     border: solid 1px;
@@ -14,3 +18,4 @@ nav li {
 header a {
     color: white;
 }
+
